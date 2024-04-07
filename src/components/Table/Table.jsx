@@ -7,10 +7,24 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import "./Table.css";
+// import {initializeApp} from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js'
+// import {getDatabase, push,ref} from 'https://www.gstatic.com/firebase/9.15.0/firebase-database.js'
+
+
+// const appSetting = { dataBaseURL : 'https://cart-app-f242e-default-rtdb.firebaseio.com/'}
+
+
+
+// const App = initializeApp(appSetting);
+// const database = getDatabase(App);
+// const dataTable = ref(database, "OrderList");
 
 function createData(name, trackingId, date, status) {
   return { name, trackingId, date, status };
 }
+
+
+
 
 const rows = [
   createData("Frozen yoghurt", 76456245, "2 March 2022", "Approved"),
@@ -82,6 +96,9 @@ export default function BasicTable() {
           </TableBody>
         </Table>
       </TableContainer>
+      <div>
+    console.log('Hello')
+      </div>
     </div>
   );
 }

@@ -11,6 +11,19 @@ import{
     UilUsdSquare,
     
 } from '@iconscout/react-unicons'
+import img1 from '../imgs/img1.png'
+import img2 from '../imgs/img2.png'
+import img3 from '../imgs/img3.png'
+
+
+
+
+
+
+
+
+
+
 // sidebar data 
 
 export const SidebarData = [
@@ -90,3 +103,25 @@ export const CardsData = [
         ],
     },
 ]
+
+
+export const UpdatesData = [
+    {
+        img: img1,
+        name: 'Andrew Thomas',
+        noti: 'has ordered Apple smart watch 2500mah battery',
+        time: '25 seconds ago',
+    },
+    {
+        img: img2,
+        name: 'James Bond',
+        noti: 'has recieved samsung smart phone',
+        time: '25 seconds ago',
+    },
+    {
+        img: img3,
+        name: 'Akinrinola Muiz',
+        noti: 'has ordered Apple smart watch 2500mah battery',
+        time: '25 seconds ago',
+    },
+];
