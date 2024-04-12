@@ -97,7 +97,6 @@ export default function BasicTable() {
         </Table>
       </TableContainer>
       <div>
-    console.log('Hello')
       </div>
     </div>
   );
