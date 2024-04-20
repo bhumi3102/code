@@ -7,6 +7,7 @@ const MainDash = () => {
     <div className='MainDash'>
       <h1>Dashboard</h1>
       <Cards/>
+      <h3>Recent Orders</h3>
       <Table type='module'/>
     </div>
   )
