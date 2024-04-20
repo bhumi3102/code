@@ -31,7 +31,6 @@
   overflow: hidden;
   gap: 10px;
   overflow-y: scroll;
-
   grid-template-columns: 11rem auto 20rem;
 }
 
