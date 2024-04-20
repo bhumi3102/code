@@ -28,7 +28,6 @@ const makeStyle = (status) => {
 function Table(){
   return (
     <div className="table-container">
-      <h3>Recent Orders</h3>
       <table className='table' style={{height:'200px', overflow: 'auto' }}>
         <thead>
           <tr>
