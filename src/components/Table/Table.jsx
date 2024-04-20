@@ -40,6 +40,22 @@ function Table(){
         </thead>
         <tbody>
           {
+
+// fetch('http://localhost:8000/table-value')
+// .then(response => response.json())
+// .then(data => { 
+//   data['table-value'].map((item)=>(
+//     <tr key={item.id}>
+//       <td className='td'>{item.name}</td>
+//       <td className='td'>{item.trackingId}</td>
+//       <td className='td'>{item.date}</td>
+//       <td className="status td" style={makeStyle(item.status)}>{item.status}</td>
+//       <td className='details td'>Details</td>
+//     </tr>
+//   ))
+  
+// })
+
             table_values.map((item)=>(
               <tr key={item.id}>
                 <td className='td'>{item.name}</td>
